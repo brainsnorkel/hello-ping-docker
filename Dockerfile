@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD ["ping", "google.com"]
+CMD ["bash", "while sleep 1; do s=$(($s+1)); echo slept $s seconds ; done"]
