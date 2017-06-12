@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD ["bash", "while sleep 1; do s=$(($s+1)); echo slept $s seconds ; done"]
+CMD ["/bin/bash", "while sleep 1; do s=$(($s+1)); echo slept $s seconds ; done"]
